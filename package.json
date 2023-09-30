@@ -1,0 +1,27 @@
+{
+  "name": "grupo_3_cafe_tango",
+  "version": "1.0.0",
+  "description": "Café Tango - Cafetería Familiar en Argentina:",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Digitalhouseeq3/grupo_3_Cafe_Tango.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Digitalhouseeq3/grupo_3_Cafe_Tango/issues"
+  },
+  "homepage": "https://github.com/Digitalhouseeq3/grupo_3_Cafe_Tango#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
