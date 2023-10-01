@@ -1,27 +1,33 @@
 {
-  "name": "grupo_3_cafe_tango",
-  "version": "1.0.0",
-  "description": "Café Tango - Cafetería Familiar en Argentina:",
-  "main": "app.js",
-  "scripts": {
-    "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Digitalhouseeq3/grupo_3_Cafe_Tango.git"
-  },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Digitalhouseeq3/grupo_3_Cafe_Tango/issues"
+    "url": "https://github.com/GinoL221/Cafe_tango/issues"
   },
-  "homepage": "https://github.com/Digitalhouseeq3/grupo_3_Cafe_Tango#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.1"
   },
+  "description": "Café Tango - Cafetería Familiar en Argentina:",
   "devDependencies": {
     "nodemon": "^3.0.1"
-  }
+  },
+  "homepage": "https://github.com/GinoL221/Cafe_tango#readme",
+  "keywords": [],
+  "license": "ISC",
+  "main": "app.js",
+  "name": "cafe_tango",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GinoL221/Cafe_tango.git"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
 }

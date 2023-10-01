@@ -1,3 +1,62 @@
 * {
   box-sizing: border-box;
 }
+
+header {
+}
+
+header .nav-bar {
+}
+
+footer {
+}
+
+footer section {
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  header {
+  }
+
+  header .nav-bar {
+  }
+
+  footer {
+  }
+
+  footer section {
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+  }
+
+  header .nav-bar {
+  }
+
+  footer {
+  }
+
+  footer section {
+  }
+}
+
+/* Estilos para escritorios */
+@media (min-width: 1025px) {
+  header {
+  }
+
+  header .nav-bar {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  footer {
+  }
+
+  footer section {
+    margin: auto;
+  }
+}
